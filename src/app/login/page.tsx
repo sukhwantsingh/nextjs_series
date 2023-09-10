@@ -69,11 +69,14 @@ export default function LoginPage() {
       </button>
 
       <p className="text-white mt-8">
-        Visit the{" "}
+        Visit the
         <Link rel="stylesheet" href="/signup">
           <span className="text-purple-500 text-2xl">Signup</span>
         </Link>
       </p>
+      <Link className="mt-4" rel="stylesheet" href="/forgotpassword">
+        <span className="text-purple-500 text-1xl">Forgot password</span>
+      </Link>
     </div>
   );
 }

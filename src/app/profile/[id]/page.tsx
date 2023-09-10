@@ -6,7 +6,7 @@ export default function UserProfilePage({ params }: any) {
       <h1 className="text-purple-700 text-3xl mb-32">Profile</h1>
       <hr />
       <p className="text-4xl">
-        Profile page{" "}
+        Profile page &nbsp;
         <span className="border-white rounded-lg bg-orange-500 px-5 text-black py-2 ">
           {params.id}
         </span>

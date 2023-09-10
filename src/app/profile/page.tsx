@@ -34,7 +34,7 @@ export default function ProfilePage() {
         {data === "Nothing" ? (
           "Nothing"
         ) : (
-          <Link href="/profile/${data}">{data}</Link>
+          <Link href={`/profile/${data}`}>{data}</Link>
         )}
       </h2>
       <hr />
