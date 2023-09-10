@@ -38,7 +38,7 @@ export default function SignupPage() {
     } else {
       setBtnDisabled(true);
     }
-  });
+  }, [user.email.length, user.password.length, user.username.length]);
 
   return (
     <div className="bg-slate-900 flex flex-col items-center justify-center min-h-screen text-white">
