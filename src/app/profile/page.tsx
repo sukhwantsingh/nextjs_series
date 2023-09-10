@@ -28,7 +28,7 @@ export default function ProfilePage() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="bg-slate-700 flex flex-col items-center justify-center min-h-screen py-2">
       <h1 className="text-3xl text-orange-400">Profile</h1>
       <h2>
         {data === "Nothing" ? (
@@ -43,7 +43,7 @@ export default function ProfilePage() {
 
       <button
         onClick={logout}
-        className="text-black text-2xl mt-8 border-solid outline rounded border-gray-500 px-4 py-2"
+        className="text-black text-2xl mt-8 border-solid outline rounded border-gray-500 px-4 py-2 bg-white"
       >
         Logout
       </button>
