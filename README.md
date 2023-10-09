@@ -1,3 +1,5 @@
+[![An image of @sukhwantsingh's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/sukhwantsingh)](https://holopin.io/@sukhwantsingh)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
